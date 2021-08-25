@@ -1,0 +1,22 @@
+version: "3"
+services:
+#
+# UI
+#
+appName:
+  #depends_on:
+  #  - backend
+  build:
+    context: .
+    dockerfile: DockerFile
+  volumes:
+    - ./src:/app/src
+  ports:
+    - "3000:3000"
+#
+# API
+#
+
+#
+# DB
+#
