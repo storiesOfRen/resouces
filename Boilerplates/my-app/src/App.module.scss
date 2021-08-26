@@ -1,0 +1,19 @@
+.App {
+  &Header {
+    min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+
+    h1 {
+      padding: 0.5rem 1rem;
+    }
+  }
+  &Main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
